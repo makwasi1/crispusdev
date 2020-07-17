@@ -15,6 +15,7 @@ html, body {
 h1 {
   padding-top: 10px;
   font-size: 5.0em;
+  font-family: cursive;
 }
 h2 {
   font-size: 3.0em;
@@ -32,7 +33,7 @@ a:hover {
 }
 .banner {
   /* background:url("https://webdevtrick.com/wp-content/uploads/1st.jpg"); */
- background:url('images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg') ;
+ background:#ff2a4a ;
   background-size: cover;
   height: 800px;
 }
@@ -42,23 +43,41 @@ a:hover {
 }
 .skills {
   /* background:url("./images/bulb\ \(1\).jpg"); */
-  background-color:#595238;
+  background-color:#3f3f44;
   background-size: cover;
   min-height: 100%;
+  display: list-item;
   padding-bottom: 40px;
   padding-top:40px;
 }
+.services {
+  padding-left: 30px;
+  border: none;
+}
+.ex-timeline1 {
+  background: #333;
+  padding-top: 2px;
+  margin-top: 0px;
+   align-items: center; 
+  padding-left: 10px;
+  /* background: #212121; */
+}
 .ex-timeline {
-  background:url("https://webdevtrick.com/wp-content/uploads/black-background.jpg");
-  background-size: cover;
+  background: #333;
+  /* background-size: cover; */
   min-height: 100%;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  /* align-items: center;  */
+  justify-content: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 .portfolios {
   padding-top: 5px;
   margin-top: -20px;
-  background: #212121;
+  background: #333;
 }
 .title {
   padding-bottom: 10px;
@@ -78,13 +97,13 @@ a:hover {
   margin-bottom: 30px;
 }
 #title {
-  font-size: 6.5em;
-  padding-bottom: 15px;
+  font-size: 3.5em;
+  padding-bottom: 10px;
 }
 
 #skills-label {
-  font-size:5.0em; 
-  padding-bottom:30px;
+  font-size:3.0em; 
+  padding-bottom:8px;
 }
 .project-img {
   height: 500px;
@@ -327,7 +346,7 @@ footer {
     border-style: solid;
 	  border-color: #084461;
 }
-.btn-facebook {
+.btn-twitter {
     background-color: #4267b2;
     border-radius: 10px;
     color: white; 

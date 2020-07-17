@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -20,7 +21,7 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#home" class="scroll"><span class="fa fa-home"></span> Home</a></li>
                     <li><a href="#about" class="scroll"><span class="fa fa-user"></span> About </a></li>
-                    <li><a href="#experience" class="scroll"><span class="fa fa-space-shuttle"></span> Experience</a>
+                    <li><a href="#experience" class="scroll"><span class="fa fa-space-shuttle"></span> Services</a>
                     </li>
                     <li><a href="#portfolio" class="scroll"><span class="fa fa-picture-o"></span> Portfolio</a></li>
                     <li><a href="#contact" class="scroll"><span class="fa fa-envelope"></span> Contact</a></li>
@@ -33,11 +34,11 @@
     <section class="banner text-center" id="home">
         <div id="overlay">
             <div class="title">
-                <h1><strong> Hello world,<br>I'am Crispus </strong></h1>
+                <h1><strong>< Hello world />,<br>I'am Crispus </strong></h1>
                 <h3 id="qualif"><strong> Full Stack Web Developer </strong></h3>
             </div>
             <div class="row text-center">
-                <div class="border contact"><a href="#">
+                <div class="border contact"><a href="#contact">
                         <h2 style="color: white;" id="borderText"><strong> CONTACT </strong>
                     </a></h2>
                 </div>
@@ -49,7 +50,7 @@
     </section>
 
     <!-- small-introduction -->
-    <div class="small-intro">
+    <div class="small-intro" id="about">
         <p id="small-intro"><strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis, eros
                 non pulvinar pellentesque, turpis nulla consequat elit,
                 id auctor nulla metus eu ex. Phasellus imperdiet ornare tristique. Ut ut lacus gravida, feugiat mi
@@ -59,95 +60,66 @@
                </strong></p>
     </div>
 
-    <!-- Skilss -->
-    <section class="skills" id="about">
-        <div class="text-center titles border">
-            <h1 id="title"><strong> TECHNICAL SKILLS </strong></h1>
-        </div>
-        <h2 class="text-center" id="skills-label"><strong> Languages: </strong></h2>
-        <div class="row text-center">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript </div>
-        </div>
-        <h2 class="text-center" id="skills-label"><strong> Frameworks & Libraries: </strong></h2>
-        <div class="row text-center">
-            <div class="skill">jQuery</div>
-            <div class="skill">React</div>
-            <div class="skill">NodeJS</div>
-        </div>
-        <h2 class="text-center" id="skills-label"><strong> Databases: </strong></h2>
-        <div class="row text-center">
-            <div class="skill"> mySQL </div>
-            <div class="skill"> MongoDB </div>
-        </div>
-    </section>
 
     <!-- Experience -->
-    <section class="ex-timeline" id="experience">
-        <h1 class="text-center border titles" id="title"><strong> EXPERIENCE</strong> </h1>
-        <div class="job-timeline">
-            <ul class="timeline">
-                <li class="timeline-event">
-                    <label class="timeline-icon"></label>
-                    <div class="timeline-event-copy">
-                        <p class="timeline-thumbnail"> February 2010 - June 2012 </p>
-                        <h5 id="workplace"><a href="#" target="_blank">Google</a></h5>
-                        <h5 id="jobPos"><strong> Lorem ipsum </strong></h5>
-                        <p id="jobDesc"> • Quisque dictum placerat urna eget mattis. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Ut cursus tincidunt tristique.</p>
-                    </div>
-                </li>
-            </ul>
-            <ul class="timeline">
-                <li class="timeline-event">
-                    <label class="timeline-icon"></label>
-                    <div class="timeline-event-copy">
-                        <p class="timeline-thumbnail"> July 2012 - August 2015</p>
-                        <h5 id="workplace"><a href="#" target="_blank">Facebook</a></h5>
-                        <h5 id="jobPos"><strong> Lorem ipsum </strong></h5>
-                        <p id="jobDesc">• Quisque dictum placerat urna eget mattis. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Ut cursus tincidunt tristique.</p>
-                    </div>
-                </li>
-            </ul>
-            <ul class="timeline">
-                <li class="timeline-event">
-                    <label class="timeline-icon"></label>
-                    <div class="timeline-event-copy">
-                        <p class="timeline-thumbnail"> August 2015 - January 2016</p>
-                        <h5 id="workplace"><a href="#" target="_blank">Microsoft</a></h5>
-                        <h5 id="jobPos"><strong> Lorem ipsum </strong></h5>
-                        <p id="jobDesc"> • Quisque dictum placerat urna eget mattis. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Ut cursus tincidunt tristique. </p>
-                    </div>
-                </li>
-            </ul>
-            <ul class="timeline">
-                <li class="timeline-event">
-                    <label class="timeline-icon"></label>
-                    <div class="timeline-event-copy">
-                        <p class="timeline-thumbnail"> February 2018 - June 2018</p>
-                        <h5 id="workplace"><a href="#" target="_blank">Amazon</a></h5>
-                        <h5 id="jobPos"><strong>Lorem ipsum</strong></h5>
-                        <p id="jobDesc"> • Quisque dictum placerat urna eget mattis. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Ut cursus tincidunt tristique. </p>
-                    </div>
-                </li>
-            </ul>
-            <ul class="timeline">
-                <li class="timeline-event">
-                    <label class="timeline-icon"></label>
-                    <div class="timeline-event-copy">
-                        <p class="timeline-thumbnail"> December 2018 - Present </p>
-                        <h5 id="workplace"><a href="#" target="_blank">Coke Cola</a></h5>
-                        <h5 id="jobPos"><strong> Lorem ipsum </strong></h5>
-                        <p id="jobDesc">• Quisque dictum placerat urna eget mattis. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Ut cursus tincidunt tristique.</p>
-                    </div>
-                </li>
-            </ul>
+    <section class="ex-timeline1" id="experience">
+        <div class="services">
+            <h1 class="text-center  titles" id="title"><strong> SERVICES </strong> </h1>
         </div>
+        <div class="container">
+            <div class="row">
+    <div class="container1 ex-timeline">
+        <div class="card1">
+            <div class="face face1">
+                <div class="content">
+                    <img
+                        src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                    <h3>Design</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis
+                        provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content">
+                    <img
+                        src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                    <h3>Code</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis
+                        provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content">
+                    <img
+                        src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                    <h3>Launch</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis
+                        provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
     </section>
 
     <!-- Projects-->
@@ -191,40 +163,6 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="well">
-                        <a class="thumbnail">
-                            <img src="https://webdevtrick.com/wp-content/uploads/css-background-gradient-animation-980x515.jpg"
-                                class="project-img">
-                        </a>
-                        <h2 id="projectTitle"><strong>Loop Slideshow</strong></h2>
-                        <a href="https://webdevtrick.com/demos/css-gradient-background/" target="_blank"
-                            alt="Live Demo">
-                            <h2 id="liveDemo"><strong>Live Demo</strong></h2>
-                        </a>
-                        <a href="https://webdevtrick.com/css-gradient-background/" target="_blank" alt="Source Code">
-                            <h2 id="sourceCode"><strong>Source Code</strong></h2>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="well">
-                        <a class="thumbnail">
-                            <img src="https://webdevtrick.com/wp-content/uploads/css-filter-image-editor.jpg"
-                                class="project-img">
-                        </a>
-                        <h2 id="projectTitle"><strong>Loop Slideshow</strong></h2>
-                        <a href="https://webdevtrick.com/demos/css-filter-editor/" target="_blank" alt="Live Demo">
-                            <h2 id="liveDemo"><strong>Live Demo</strong></h2>
-                        </a>
-                        <a href="https://webdevtrick.com/css-filter-image-editor/" target="_blank" alt="Source Code">
-                            <h2 id="sourceCode"><strong>Source Code</strong></h2>
-                        </a>
-                    </div>
-                </div>
-            </div>
 
             <div class="row">
                 <div class="col-md-6">
@@ -266,18 +204,18 @@
 
     <!-- contact -->
     <section class="contact-section" id="contact">
-        <h1 class="text-center">Connect With Me!</h1>
+        <h1 class="text-center">Lets connect!</h1>
         <div class="contact-buttons">
             <a class="btn btn-linkedin btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
             <a class="btn btn-github btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-github"></i></a>
-            <a class="btn btn-drible btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-dribbble"></i></a>
-            <a class="btn btn-facebook btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>
+            <a class="btn btn-twitter btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+            <!-- <a class="btn btn-facebook btn-lg" href="#" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a> -->
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p id="footer">Copyright © Webdevtrick 2019</p>
+        <p id="footer">Copyright © makwasi1 2020</p>
     </footer>
 </body>
 
